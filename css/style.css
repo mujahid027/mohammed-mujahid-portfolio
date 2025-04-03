@@ -92,7 +92,7 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
-    padding-top: 80px;
+    padding: 80px 0;
 }
 
 .hero:before {
@@ -124,16 +124,23 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.hero h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
 .hero p {
     font-size: 1.2rem;
     opacity: 0.9;
     max-width: 600px;
-    margin-bottom: 2rem;
+    margin: 0 auto 2rem;
 }
 
 /* About Section */
 .about-section {
     padding: 5rem 0;
+    background-color: white;
 }
 
 .about-img-container {
@@ -160,6 +167,7 @@ body {
     overflow: hidden;
     box-shadow: var(--box-shadow);
     background: white;
+    height: 100%;
 }
 
 .card:hover {
@@ -214,6 +222,7 @@ body {
     position: relative;
     z-index: 1;
     box-shadow: var(--box-shadow);
+    height: 100%;
 }
 
 .skill-card:hover {
@@ -248,11 +257,16 @@ body {
     color: white;
 }
 
+.social-links {
+    margin-top: 2rem;
+}
+
 .social-links a {
     transition: var(--transition);
     opacity: 0.8;
     margin: 0 1rem;
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .social-links a:hover {
@@ -276,6 +290,10 @@ body {
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.5rem;
+    }
+    
+    .hero h2 {
+        font-size: 2rem;
     }
     
     .navbar {
@@ -307,4 +325,47 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--accent-color);
+}
+
+/* Form Styles */
+.form-control {
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.form-control:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.2rem rgba(9, 132, 227, 0.25);
+}
+
+.btn-primary {
+    background: var(--gradient);
+    border: none;
+    padding: 0.8rem 2rem;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Additional Spacing */
+section {
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Footer */
+footer {
+    background: var(--primary-color);
 }
