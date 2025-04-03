@@ -3,28 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammed Mujahid | AI & ML Engineer</title>
-    <!-- Bootstrap 5 CSS -->
+    <title>Mohammed Mujahid - AI & ML Engineer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#home">Mohammed Mujahid</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#home">Mohammed Mujahid</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -44,41 +40,34 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
+    <section id="home" class="hero">
         <div class="container">
-            <div class="row align-items-center hero-content">
-                <div class="col-lg-6 animate-up">
-                    <h1 class="mb-4">AI & ML Engineer</h1>
-                    <p class="lead mb-4">Transforming ideas into intelligent solutions through AI and Machine Learning innovation.</p>
-                    <div class="d-flex gap-3">
-                        <a href="#projects" class="btn btn-light btn-lg">View Projects</a>
-                        <a href="#contact" class="btn btn-outline-light btn-lg">Get in Touch</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 animate-up" style="animation-delay: 0.2s;">
-                    <img src="images/hero-illustration.svg" alt="AI Illustration" class="img-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center hero-content">
+                    <h1 class="animate-up">AI & ML Engineer</h1>
+                    <p class="animate-up">Transforming ideas into intelligent solutions through AI & Machine Learning</p>
+                    <a href="#projects" class="btn btn-light btn-lg animate-up">View My Work</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about-section py-5 bg-light" id="about">
+    <section id="about" class="about-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-                    <div class="about-img-container">
-                        <img src="images/profile.jpg" alt="Mohammed Mujahid" class="img-fluid rounded-3 about-img">
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-6">
-                    <h2 class="section-title">About Me</h2>
-                    <p class="lead">BE graduate in AI & ML passionate about developing intelligent systems and data-driven solutions.</p>
-                    <p>I'm completing my undergraduate degree in AI & ML from MJCET in June 2025. Having transitioned from Mechanical Engineering to AI & ML, I've developed expertise in Python, Java, TensorFlow, and Pandas while building projects like Financial Agent Systems, RAG Medical Consultants, and Weather Forecasting models.</p>
-                    <p>My approach combines technical expertise with problem-solving abilities, continuously learning and exploring emerging technologies to stay at the forefront of AI advancements.</p>
+                <div class="col-lg-6 animate-up">
+                    <h2 class="mb-4">About Me</h2>
+                    <p>I am an AI & ML Engineer with a passion for developing innovative solutions using artificial intelligence and machine learning technologies. My journey began in Mechanical Engineering, but my fascination with AI led me to transition into this exciting field.</p>
+                    <p>Currently pursuing B.E in AI & ML at MJCET (2022-2025), I have developed various projects that demonstrate my expertise in AI, machine learning, and data science. My background in Mechanical Engineering from Government Polytechnic College (2019-2022) gives me a unique perspective in problem-solving.</p>
                     <div class="mt-4">
                         <a href="#contact" class="btn btn-primary me-3">Get in Touch</a>
-                        <a href="files/resume.pdf" class="btn btn-outline-dark" target="_blank">Download Resume</a>
+                        <a href="#projects" class="btn btn-outline-primary">View Projects</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 animate-up">
+                    <div class="about-img-container">
+                        <img src="https://via.placeholder.com/600x400" alt="About Me" class="img-fluid about-img">
                     </div>
                 </div>
             </div>
@@ -86,60 +75,51 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="py-5" id="projects">
+    <section id="projects" class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">Featured Projects</h2>
             <div class="row g-4">
                 <!-- Financial Agent System -->
-                <div class="col-md-4 animate-up">
+                <div class="col-md-6 col-lg-4 animate-up">
                     <div class="card h-100">
-                        <img src="images/project1.svg" class="card-img-top" alt="Financial Agent System">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Financial Agent System">
                         <div class="card-body">
                             <h5 class="card-title">Financial Agent System</h5>
-                            <p class="card-text">An intelligent system for financial consulting, providing insights and decision-making support for investment strategies.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://github.com/mujahid027" class="btn btn-sm btn-outline-secondary" target="_blank">
-                                        <i class="fab fa-github"></i> Code
-                                    </a>
-                                </div>
-                                <small class="text-muted">Python, Phidata</small>
+                            <p class="card-text">An AI-powered financial advisory system using natural language processing for personalized financial guidance.</p>
+                            <div class="d-flex gap-2">
+                                <span class="badge bg-primary">Python</span>
+                                <span class="badge bg-primary">NLP</span>
+                                <span class="badge bg-primary">AI</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- RAG Medical Consultant -->
-                <div class="col-md-4 animate-up" style="animation-delay: 0.2s;">
+                <div class="col-md-6 col-lg-4 animate-up">
                     <div class="card h-100">
-                        <img src="images/project2.svg" class="card-img-top" alt="RAG Medical Consultant">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="RAG Medical Consultant">
                         <div class="card-body">
                             <h5 class="card-title">RAG Medical Consultant</h5>
-                            <p class="card-text">A Retrieval-Augmented Generation system functioning as a professional medical consultant for diagnostic insights.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://github.com/mujahid027" class="btn btn-sm btn-outline-secondary" target="_blank">
-                                        <i class="fab fa-github"></i> Code
-                                    </a>
-                                </div>
-                                <small class="text-muted">Python, TensorFlow</small>
+                            <p class="card-text">A medical consultation system using Retrieval Augmented Generation for accurate medical information retrieval.</p>
+                            <div class="d-flex gap-2">
+                                <span class="badge bg-primary">RAG</span>
+                                <span class="badge bg-primary">Healthcare</span>
+                                <span class="badge bg-primary">ML</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Weather Forecasting System -->
-                <div class="col-md-4 animate-up" style="animation-delay: 0.3s;">
+                <div class="col-md-6 col-lg-4 animate-up">
                     <div class="card h-100">
-                        <img src="images/project3.svg" class="card-img-top" alt="Weather Forecasting System">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Weather Forecasting System">
                         <div class="card-body">
                             <h5 class="card-title">Weather Forecasting System</h5>
-                            <p class="card-text">Advanced weather prediction system using machine learning for accurate forecasting.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://github.com/mujahid027" class="btn btn-sm btn-outline-secondary" target="_blank">
-                                        <i class="fab fa-github"></i> Code
-                                    </a>
-                                </div>
-                                <small class="text-muted">Python, ML</small>
+                            <p class="card-text">Machine learning-based weather prediction system using historical weather data and advanced algorithms.</p>
+                            <div class="d-flex gap-2">
+                                <span class="badge bg-primary">Python</span>
+                                <span class="badge bg-primary">ML</span>
+                                <span class="badge bg-primary">Data Science</span>
                             </div>
                         </div>
                     </div>
@@ -149,53 +129,59 @@
     </section>
 
     <!-- Skills Section -->
-    <section class="skills-section" id="skills">
+    <section id="skills" class="skills-section">
         <div class="container">
             <h2 class="text-center mb-5">Skills & Expertise</h2>
             <div class="row g-4">
                 <!-- Programming Languages -->
-                <div class="col-md-4 animate-up">
-                    <div class="skill-card h-100">
-                        <div class="skill-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <h3 class="h5 mb-4">Programming Languages</h3>
-                        <div class="d-flex flex-wrap gap-2">
-                            <span class="badge bg-secondary">Python</span>
-                            <span class="badge bg-secondary">Java</span>
-                            <span class="badge bg-secondary">C/C++</span>
-                            <span class="badge bg-secondary">SQL</span>
-                            <span class="badge bg-secondary">R</span>
+                <div class="col-md-6 col-lg-3 animate-up">
+                    <div class="skill-card">
+                        <i class="fas fa-code skill-icon"></i>
+                        <h4>Programming</h4>
+                        <div class="mt-3">
+                            <span class="badge">Python</span>
+                            <span class="badge">Java</span>
+                            <span class="badge">C/C++</span>
+                            <span class="badge">SQL</span>
+                            <span class="badge">R</span>
                         </div>
                     </div>
                 </div>
                 <!-- Frameworks & Libraries -->
-                <div class="col-md-4 animate-up" style="animation-delay: 0.2s;">
-                    <div class="skill-card h-100">
-                        <div class="skill-icon">
-                            <i class="fas fa-layer-group"></i>
-                        </div>
-                        <h3 class="h5 mb-4">Frameworks & Libraries</h3>
-                        <div class="d-flex flex-wrap gap-2">
-                            <span class="badge bg-secondary">TensorFlow</span>
-                            <span class="badge bg-secondary">Pandas</span>
-                            <span class="badge bg-secondary">NumPy</span>
-                            <span class="badge bg-secondary">Scikit-learn</span>
+                <div class="col-md-6 col-lg-3 animate-up">
+                    <div class="skill-card">
+                        <i class="fas fa-layer-group skill-icon"></i>
+                        <h4>Frameworks</h4>
+                        <div class="mt-3">
+                            <span class="badge">TensorFlow</span>
+                            <span class="badge">Pandas</span>
+                            <span class="badge">NumPy</span>
+                            <span class="badge">Scikit-learn</span>
                         </div>
                     </div>
                 </div>
-                <!-- Tools & Technologies -->
-                <div class="col-md-4 animate-up" style="animation-delay: 0.3s;">
-                    <div class="skill-card h-100">
-                        <div class="skill-icon">
-                            <i class="fas fa-tools"></i>
+                <!-- Databases -->
+                <div class="col-md-6 col-lg-3 animate-up">
+                    <div class="skill-card">
+                        <i class="fas fa-database skill-icon"></i>
+                        <h4>Databases</h4>
+                        <div class="mt-3">
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Vector DB</span>
+                            <span class="badge">MongoDB</span>
                         </div>
-                        <h3 class="h5 mb-4">Tools & Technologies</h3>
-                        <div class="d-flex flex-wrap gap-2">
-                            <span class="badge bg-secondary">Git</span>
-                            <span class="badge bg-secondary">Docker</span>
-                            <span class="badge bg-secondary">MySQL</span>
-                            <span class="badge bg-secondary">Vector Databases</span>
+                    </div>
+                </div>
+                <!-- Tools -->
+                <div class="col-md-6 col-lg-3 animate-up">
+                    <div class="skill-card">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h4>Tools</h4>
+                        <div class="mt-3">
+                            <span class="badge">Git</span>
+                            <span class="badge">Docker</span>
+                            <span class="badge">Arduino</span>
+                            <span class="badge">ML Ops</span>
                         </div>
                     </div>
                 </div>
@@ -204,21 +190,41 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="py-5 bg-gradient" id="contact">
-        <div class="container text-center">
+    <section id="contact" class="py-5 bg-gradient">
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8 animate-up">
-                    <h2 class="mb-4">Let's Work Together</h2>
-                    <p class="lead mb-4">Have a project in mind? I'd love to help you bring it to life.</p>
-                    <div class="social-links mt-4">
-                        <a href="https://github.com/mujahid027" class="text-white me-3" target="_blank">
-                            <i class="fab fa-github fa-2x"></i>
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-4">Get In Touch</h2>
+                    <p class="mb-5">Feel free to reach out for collaborations or just a friendly hello!</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form id="contact-form" class="bg-white p-4 rounded-3 shadow">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <div class="social-links">
+                        <a href="https://github.com/mujahid027" target="_blank" class="text-white">
+                            <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://linkedin.com/in/mohammed-mujahid-282145262" class="text-white me-3" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
+                        <a href="https://linkedin.com/in/your-profile" target="_blank" class="text-white">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                         <a href="mailto:your.email@example.com" class="text-white">
-                            <i class="fas fa-envelope fa-2x"></i>
+                            <i class="fas fa-envelope"></i>
                         </a>
                     </div>
                 </div>
@@ -227,19 +233,14 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="mb-0">&copy; 2024 Mohammed Mujahid. All rights reserved.</p>
-                </div>
-            </div>
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Mohammed Mujahid. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
     <script src="js/main.js"></script>
 </body>
 </html>
